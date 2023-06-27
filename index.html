@@ -3,6 +3,9 @@
   <head>
     <title>Sheets API Quickstart</title>
     <meta charset="utf-8" />
+    <script>
+      const {apiKey, clientId} = require('./keys.js');
+    </script>
   </head>
   <body>
     <p>Sheets API Quickstart</p>
@@ -20,8 +23,8 @@
       /* exported handleSignoutClick */
 
       // TODO(developer): Set to client ID and API key from the Developer Console
-      const CLIENT_ID = '784747178492-npmmh1mqr4oapft5j4lctslii8jkrd49.apps.googleusercontent.com';
-      const API_KEY = 'AIzaSyCQNDZupe2sXfFb7HW3Wns7tLkozraYgMc';
+      const CLIENT_ID = clientId;
+      const API_KEY = apiKey;
 
       // Discovery doc URL for APIs used by the quickstart
       const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';

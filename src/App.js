@@ -1,7 +1,15 @@
-<!DOCTYPE html>
-<html>
+import React from "react";
+import { useEffect } from "react";
+import { ReactDOM } from "react";
+import { useState } from "react";
+const { Fragment } = require("react");
+
+export default function App(){
+
+
+return(
+  <Fragment>
   <head>
-    <meta charset="utf-8" />
     <title>Sheets API Quickstart</title>
     <h1>
       Homepage
@@ -21,4 +29,7 @@
   </form>
     body
   </body>
-</html>
+  </Fragment>
+);
+
+}

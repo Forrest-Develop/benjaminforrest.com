@@ -8,6 +8,7 @@ import About from "./About.js";
 import Privacy from "./Privacy.js";
 import Terms from "./Terms.js";
 import Support from "./Support.js";
+import 'semantic-ui-css/semantic.min.css'
 import "./styles.css";
 
 import App from "./App";
